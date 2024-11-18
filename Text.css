@@ -1,0 +1,41 @@
+.text {
+background-color: bisque;
+text-align: center;
+}   
+
+.card1>img {
+    width: 70%;
+
+}
+
+.textCont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(4);
+}
+
+.card {
+    margin: 2.5em;
+}
+
+.card1 {
+    text-align: center;
+padding:30px ;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
